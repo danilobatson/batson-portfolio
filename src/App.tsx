@@ -187,7 +187,7 @@ export default function ProfilePage(): JSX.Element {
           Vue
         </Typography>
       </Stack>
-      <Stack direction='row' spacing={16} sx={{ marginBottom: '10%' }}>
+      <Stack direction='row' spacing={16} sx={{ marginBottom: '20%' }}>
         <Typography variant='h4' className='text-orange'>
           Mongo DB
         </Typography>

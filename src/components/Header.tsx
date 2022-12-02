@@ -14,7 +14,7 @@ interface HeaderProps {
 export default function Header({ title }: HeaderProps) {
   return (
     <Toolbar
-      sx={{ borderBottom: 1, borderColor: 'divider', marginBottom: '5%' }}
+      sx={{ borderBottom: 1, borderColor: 'divider', margin: '5% auto',}}
     >
       <Typography
         component='h2'
@@ -22,7 +22,7 @@ export default function Header({ title }: HeaderProps) {
         color='inherit'
         align='center'
         noWrap
-        sx={{ flex: 1 }}
+        sx={{ flex: 1, fontWeight: 'bold' }}
       >
         {title}
       </Typography>
@@ -30,7 +30,7 @@ export default function Header({ title }: HeaderProps) {
         <Typography variant='body1' color='inherit' align='inherit'>
           <Link
             sx={{
-              color: '#46cca0',
+              color: '#ffffff',
               fontWeight: 700,
             }}
             href='#work'
@@ -43,7 +43,7 @@ export default function Header({ title }: HeaderProps) {
         <Typography variant='body1' color='inherit' align='inherit'>
           <Link
             sx={{
-              color: '#46cca0',
+              color: '#ffffff',
               fontWeight: 700,
             }}
             href='#skills'
@@ -55,7 +55,7 @@ export default function Header({ title }: HeaderProps) {
       <IconButton>
         <Link
           sx={{
-            color: '#e91e63',
+            color: '#0ca2ce',
           }}
           href='mailto:djbatson19@gmail.com'
         >
@@ -65,7 +65,7 @@ export default function Header({ title }: HeaderProps) {
       <IconButton>
         <Link
           sx={{
-            color: '#e91e63',
+            color: '#f79234',
           }}
           href='https://github.com/danilobatson'
           target='_blank'
@@ -76,7 +76,7 @@ export default function Header({ title }: HeaderProps) {
       <IconButton>
         <Link
           sx={{
-            color: '#e91e63',
+            color: '#fef07a',
           }}
           href='https://www.linkedin.com/in/danilo-batson/'
           target='blank'
