@@ -19,8 +19,8 @@ export default function Header({ title }: HeaderProps) {
       <Typography
         component='h2'
         variant='h3'
-        color='inherit'
         align='center'
+        color='inherit'
         noWrap
         sx={{ flex: 1, fontWeight: 'bold' }}
       >
