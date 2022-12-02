@@ -24,7 +24,7 @@ export default function Header({ title }: HeaderProps) {
         noWrap
         sx={{ flex: 1, fontWeight: 'bold' }}
       >
-        {title}
+        {title} 
       </Typography>
       <IconButton>
         <Typography variant='body1' color='inherit' align='inherit'>
