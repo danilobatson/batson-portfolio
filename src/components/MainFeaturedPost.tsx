@@ -44,7 +44,7 @@ export default function MainFeaturedPost({ photo }: Photo) {
           <Typography variant='body1' color='inherit' paragraph>
             I'm Danilo Batson and I am a full stack web developer. I'm currently
             working on my portfolio and learning new skills everyday. I'm
-            looking for next positiont that will continue allow to me grow as a
+            looking for next position that will continue allow to me grow as a
             web developer to boost the foundation I have in place.
           </Typography>
           <Typography variant='body1' color='inherit' paragraph>
