@@ -43,9 +43,9 @@ export default function MainFeaturedPost({ photo }: Photo) {
           </Typography>
           <Typography variant='body1' color='inherit' paragraph>
             I'm Danilo Batson and I am a full stack web developer. I'm currently
-            working on my portfolio and learning new skills everyday. I'm
-            looking for next position that will continue allow to me grow as a
-            web developer to boost the foundation I have in place.
+            working on my portfolio and learning new skills everyday. I'm looking 
+            for my next position that will continue to allow me to grow as a web 
+            developer to boost the foundation I have in place
           </Typography>
           <Typography variant='body1' color='inherit' paragraph>
             I currently work full-time at a startup called Mongoose Research as
@@ -63,7 +63,7 @@ export default function MainFeaturedPost({ photo }: Photo) {
             Spicy Green Book
           </Typography>
           <Typography variant='body1' color='inherit' paragraph>
-            Spicy Green Book is a completely volunteer based native mobile ap
+            Spicy Green Book is a completely volunteer based native mobile app
             and web app that helps people discover Black-owned restaurants near
             them. I worked with various volunteer product/project managers,
             designers, photographers, marketers, videographers, and programmers
